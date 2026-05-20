@@ -1,6 +1,8 @@
 # SOSSA_PAGE
 
-Aplicación Flutter con login, registro y home.
+Pagina con login, registro y home.
+
+Aplicación Flutter con navegación entre pantallas, registro de usuario, inicio de sesión y pantalla principal.
 
 ## Características
 
