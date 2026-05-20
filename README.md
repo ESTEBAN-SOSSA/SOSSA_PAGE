@@ -47,3 +47,18 @@ flutter create .
 2. Desde Login se puede ir a **Registro** para crear una cuenta.
 3. Tras un registro exitoso o un login válido, se navega a **Home**.
 4. El botón **Cerrar sesión** en Home regresa al Login.
+
+## Docker
+
+La app se empaqueta con un build multi-stage (Flutter SDK → nginx alpine sirviendo los estáticos).
+
+```bash
+# build + run
+docker compose up --build
+
+# o sin compose
+docker build -t sossa_page:local .
+docker run --rm -p 8080:80 --name sossa_page sossa_page:local
+```
+
+Abrir http://localhost:8080. El primer build descarga la imagen base de Flutter (~2 GB) y compila la app — los siguientes son mucho más rápidos gracias al cache.

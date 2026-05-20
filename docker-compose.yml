@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sossa_page:local
+    container_name: sossa_page
+    ports:
+      - "8080:80"
+    restart: unless-stopped
