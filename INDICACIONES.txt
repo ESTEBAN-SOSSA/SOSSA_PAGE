@@ -1,0 +1,17 @@
+Objetivo
+Crear una aplicación Flutter con navegación entre pantallas, registro de usuario, inicio de sesión y pantalla principal.
+
+Instrucciones
+La aplicación debe incluir:
+
+1. Una pantalla de Login, que pida usuario y contraseña.
+2. Una pantalla de Crear usuario, que solicite los datos mínimos para el registro d eun usuario en una plataformas.
+3. Una pantalla de Home sen cilla puede ser con un fondo con el nombre de sossa_page, un botón de cerrar sesión y ya miras que mas.
+4. En el registro, solicitar como mínimo:
+Nombre
+Correo
+Contraseña
+Verificar contraseña
+Validar que las contraseñas coincidan.
+5. Guardar los datos del usuario de forma local, por ejemplo con SharedPreferences.
+6. Al iniciar sesión correctamente, navegar a la pantalla Home.
