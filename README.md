@@ -61,4 +61,19 @@ docker build -t sossa_page:local .
 docker run --rm -p 8080:80 --name sossa_page sossa_page:local
 ```
 
+## Imagenes de aplicación.
+
+# Login:
+
+<img width="921" height="506" alt="image" src="https://github.com/user-attachments/assets/14bfda0f-0795-45f3-bdbb-e0d6bd46be25" />
+
+# Crear cuenta y validación de contraseñas:
+
+<img width="921" height="604" alt="image" src="https://github.com/user-attachments/assets/9c299ab5-81ac-42ea-a9b1-f24995918c04" />
+
+# Inicio de sesión:
+
+<img width="921" height="405" alt="image" src="https://github.com/user-attachments/assets/12bb5ef9-b239-4536-b440-3a24bd65dbcd" />
+
+
 Abrir http://localhost:8080. El primer build descarga la imagen base de Flutter (~2 GB) y compila la app — los siguientes son mucho más rápidos gracias al cache.
